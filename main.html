@@ -19,7 +19,6 @@ function swapImage()
 }
 window.onload=swapImage;
 </script>
-<img height="200" name="slide" src="image_1.gif" width="80%" />
 
 <script language ="JavaScript">
 		var today_date= new Date()
@@ -248,7 +247,8 @@ footer li a:hover{
             </ul></div>
 
 <div id="container-header">
-<h1>Breakfast Idea Selection</h1>
+<!-- <h1>Breakfast Idea Selection</h1> -->
+<img height="200" name="slide" src="food-header.jpg" width="80%" />
 </div>
 <div class="row">
 <div class="container">
@@ -315,7 +315,15 @@ footer li a:hover{
  <p>Suspendisse dolor magna, scelerisque id sapien dapibus, laoreet pellentesque leo. Ut faucibus ac massa vel finibus. Sed malesuada cursus lacus, a volutpat eros commodo vel. Nulla pretium erat sed leo rhoncus, vitae commodo neque aliquet. Suspendisse commodo pretium semper. Sed in semper tortor, pulvinar venenatis diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus a elementum est. Aliquam luctus ut urna at feugiat. Donec turpis tortor, tincidunt at rutrum at, mattis at ante. Nunc varius lorem auctor erat finibus consectetur. Vestibulum sagittis neque quam, ut mattis odio vulputate sed. Nam ipsum augue, vulputate ut dolor vitae, bibendum semper sem. Maecenas vitae posuere dui. Phasellus tristique ipsum diam, ut ultricies diam euismod varius. Praesent aliquet felis ac felis tincidunt sodales.</p>
 </div>
 <footer>
-<p>Class Static Website &copy; Quadri Dauda 2016</p>
+ <script language ="JavaScript">
+		var today_date= new Date()
+var myyear=today_date.getYear()
+var mymonth=today_date.getMonth()+1
+var mytoday=today_date.getDate()
+	document.write( "Today's date is: ")
+	document.write(myyear+"/"+mymonth+"/"+mytoday)
+	</script>
+<p>
 <ul>
                 <li><a href="index.html">Index</a></li>
                 <li><a href="index1.html">Index 1</a></li>
@@ -324,8 +332,11 @@ footer li a:hover{
                 <li><a href="index4.html">Index 4</a></li>
                 <li><a href="index5.html">Index 5</a></li>
                 <li><a href="#">Top</a></li>
-            </ul>
-
+	 </ul></p>
+	 </footer><footer></footer>
+	 
+<footer>
+	 <p> Class Static Website &copy; Quadri Dauda 2016</p>
 </footer>
 </body>
 </html>
